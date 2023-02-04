@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#smit{
+    margin-top: 50px;
+    height: 150px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    
+}
+.card{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+.part{
+    height: 100%;
+    width: 50%;
+    padding: 10px;
+    border: 1px solid black;
+    color: rgb(23, 78, 100);
+}
+.part span{
+    color: black;
+    margin-left: 3px;
+}
+.part1 img{
+    height: 200px;
+    width: 200px;
+}
+.part1 p{
+    font-size: larger;
+    font-weight: 600;
+    margin-top: 12px;
+}
+.part2 p{
+    font-size: larger;
+    font-weight: 600;
+    margin-top: 12px;
+}

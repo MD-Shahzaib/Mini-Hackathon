@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/home.css">
+    <title>Hackathon 2</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./add.html">Add Student</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./class.html">Classes</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="roll_id"
+                        onchange="realTime()">
+                    <button class="btn btn-primary" type="submit"
+                        style="background-color: rgb(23, 78, 100);">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Card -->
+    <div id="smit">
+        <img src="./image/logo.png" alt="smit">
+    </div>
+    <div class="card">
+        <div class="part1 part">
+            <img src="./image/placeholder.png" alt="">
+            <p>Student Name: <span>Islam</span></p>
+            <p>Father Name: <span>Kalam</span></p>
+            <p>Roll Number: <span>467898347</span></p>
+            <p>Course: <span>Web And App</span></p>
+        </div>
+        <div class="part2 part">
+            <p>Teacher's Name: <span>kashif</span></p>
+            <p>Schedule of classes: <span>tts</span></p>
+            <p>Class timings: <span>11 t0 1</span></p>
+            <p>Section name: <span>A</span></p>
+            <p>Batch Number: <span>8</span></p>
+            <p>CNIC number: <span>7649873</span></p>
+            <p>Contact Number: <span>567375420983</span></p>
+        </div>
+    </div>
+    <script type="module" src="../app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

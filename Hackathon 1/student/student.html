@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hackathon 1</title>
+    <link rel="stylesheet" href="./student.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="form-box">
+            <h1>SMIT ADD Student</h1>
+            <div class="form-container">
+                <div class="form-controls">
+                    <label for="fullname">FullName</label>
+                    <input id="fullname" name="first-name" placeholder="Enter your teacher name">
+                </div>
+                <div class="form-controls">
+                    <label for="last-name">Father Name</label>
+                    <input id="last-name" name="Father Name" placeholder="Enter Last Name..">
+                </div>
+                <div class="form-controls">
+                    <label for="email">Roll No</label>
+                    <input type="text" id="email" name="Roll No" placeholder="Enter Email">
+                </div>
+                <div class="form-controls">
+                    <label for="email">Contact No</label>
+                    <input type="text" id="email" name="contact No" placeholder="Enter Email">
+                </div>
+                <div class="form-controls">
+                    <label for="email">CNIC</label>
+                    <input type="text" id="email" name="CNIC" placeholder="Enter Email">
+                </div>
+
+                <div class="form-controls">
+                    <label for="job-role">Course Name</label>
+                    <select name="job-role" id="course-name">
+                        <option value="">Select</option>
+                        <option value="web and app development">web and app development</option>
+                        <option value="Graphic desining">Graphic desining</option>
+                        <option value="CA">CA</option>
+                        <option value="Mobile Repairing">Mobile Repairing</option>
+                    </select>
+                </div>
+
+                <div class="form-controls">
+                    <label for="images"><b>Product images</b></label>
+                    <input class="custom-file-input" id="uploadImage" type="file" />
+                </div>
+                <div class="button-container">
+                    <button type="submit" onclick="addStudent()">Submit</button>
+                </div>
+            </div>
+        </div>
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script type="module" src="../config/firebase.js"></script>
+        <script type="module" src="./student.js"></script>
+</body>
+
+</html>
